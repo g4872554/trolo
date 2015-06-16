@@ -5,10 +5,17 @@ using std::endl;
 using std::cout;
 using std::cin;
 
-int main(int argc, char * argv[]) {
-    SYS s1;
-    cout << "Janusz: ";
+void wypisz(int &l){
+    cout << l++ << endl;
+}
 
-    cout << 8 << endl;
+int main(int argc, char * argv[]) {
+    //SYS s1;
+    cout << "Janusz: " << endl;
+    int val = 6;
+    wypisz(val);
+    wypisz(val);
+
+    cout << val << endl;
     return 0;
 }
