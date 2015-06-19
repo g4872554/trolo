@@ -16,5 +16,4 @@ public:
     }
 };
 
-
 DECLARE_MAIN(my_application);
